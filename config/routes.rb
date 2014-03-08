@@ -53,4 +53,9 @@ MagazineMaker::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+
+
+  # ADDED BY Cricket for use with Sextant
+  # mount_sextant if Rails.env.development?
+  # match '*not_found' => 'errors#handle404'
 end

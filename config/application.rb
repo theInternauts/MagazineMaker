@@ -19,5 +19,8 @@ module MagazineMaker
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    # added by Cricket for use with Quiet Assets Gem in development
+    # config.quiet_assets = false
   end
 end
